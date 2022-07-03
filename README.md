@@ -3,11 +3,11 @@ Detecting lung cancer by building a neural network (CNN) that help to predict wh
 Furthermore, extract the Abnormal tumor using image processing Technique (FCM segmentation).
 However, other techniques have been used to help the process were (ccl algorithm) and image maskes (to clean the edge and unwanted parts from the thorax).
 # for the Neural network for predicting Lung Cancer
-##I design a CNN model to predict whether the input image normal or Abnormal
+## I design a CNN model to predict whether the input image normal or Abnormal
 - The data has been collected from local hospitals and medical clinic
 - The model have only two classes Normal = 0 , Abnormal =1
 - The model could not predict more than two classes due to small dataset
-##First I have to Create the dataset by the following steps :
+## First I have to Create the dataset by the following steps :
 1. Creating two list for both the image name and the lebels.
 2. I build the dataset using pandas (pd.Series(data=my_img)).
 3. By using the image name I could add the path therefor I could read the images.
@@ -15,9 +15,9 @@ However, other techniques have been used to help the process were (ccl algorithm
 5. Converting the two list into Arrays.
 
 
-#Lung Tumor Segmentation
+# Lung Tumor Segmentation
 
-##I use the image processing methods to extract the lung tumor
+## I use the image processing methods to extract the lung tumor
 - First thing was to make sure that the image was at size 512x512 (defualt size from DICOM images).
 - per-processing stage was by appling filter for the binery-image ( circle with a diameter 300 pixel).
 - TO clear all the unwanted areas we use the ccl method and exract the two largest areas (the lungs).
