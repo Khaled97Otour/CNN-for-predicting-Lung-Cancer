@@ -13,7 +13,9 @@ However, other techniques have been used to help the process were (ccl algorithm
 3. By using the image name I could add the path therefor I could read the images.
 4. img_preprocess was created to pre process the images by reshape theme and add noise.
 5. Converting the two list into Arrays.
-
+## Second The CNN model that I create is basic sequential model using Conv2D and Maxpooling2D and fully connected layers.
+- I use the Adam compiler to measure the Accuracy and loss.
+- For validation I split the data 5 % from the total dataset.
 
 # Lung Tumor Segmentation
 
