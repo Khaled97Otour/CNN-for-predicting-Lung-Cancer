@@ -5,7 +5,6 @@ However, other techniques have been used to help the process were (ccl algorithm
 
 ## Requirements are:
 
-- Python >= 3.6 (Python 2 will never been supported)
 - OpenCV
 - numpy
 - Keras >= 2
