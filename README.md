@@ -3,13 +3,13 @@ Detecting lung cancer by building a neural network (CNN) that help to predict wh
 Furthermore, extract the Abnormal tumor using image processing Technique (FCM segmentation).
 However, other techniques have been used to help the process were (ccl algorithm) and image maskes (to clean the edge and unwanted parts from the thorax).
 
-##Requirements are:
+## Requirements are:
 
-Python >= 3.6 (Python 2 will never been supported)
-OpenCV
-numpy
-Keras >= 2
-TensorFlow >= 1.15 (or other backend, not tested, TensorFlow is needed by Keras)
+- Python >= 3.6 (Python 2 will never been supported)
+- OpenCV
+- numpy
+- Keras >= 2
+- TensorFlow >= 1.15 (or other backend, not tested, TensorFlow is needed by Keras)
 
 
 # for the Neural network for predicting Lung Cancer
