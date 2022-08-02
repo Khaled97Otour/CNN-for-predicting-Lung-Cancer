@@ -13,19 +13,24 @@ However, other techniques have been used to help the process were (ccl algorithm
 
 # for the Neural network for predicting Lung Cancer
 ## I design a CNN model to predict whether the input image normal or Abnormal
-- The data has been collected from local hospitals and medical clinic
+- The data has been collected from local hospitals and medical clinic(416 sample)
 - The model have only two classes Normal = 0 , Abnormal =1
 - The model could not predict more than two classes due to small dataset
 ## First I have to Create the dataset by the following steps :
 1. Creating two list for both the image name and the lebels.
 2. I build the dataset using pandas (pd.Series(data=my_img)).
 3. By using the image name I could add the path therefor I could read the images.
-4. img_preprocess was created to pre process the images by reshape theme and add noise.
+4. img_preprocess was created to pre process the images by reshape theme and add noise (80 , 80 is the image shape).
 5. Converting the two list into Arrays.
+
 ## Second I create The CNN model   
 - is basic sequential model using Conv2D and Maxpooling2D and fully connected layers.
 - I use the Adam compiler to measure the Accuracy and loss.
 - For validation I split the data 5 % from the total dataset due to low number of data.
+The results were the following:
+
+![download](https://user-images.githubusercontent.com/93203143/182347174-c5153ed3-82a4-430a-a74d-f95a491ad653.png)
+![download (1)](https://user-images.githubusercontent.com/93203143/182347192-7e9e04dd-3c3a-4eb5-86cc-d19de38131f8.png)
 
 # Lung Tumor Segmentation
 
