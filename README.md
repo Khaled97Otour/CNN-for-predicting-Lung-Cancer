@@ -78,8 +78,7 @@ Model: \"sequential_4\"
       
 
 - I use the Adam compiler to measure the Accuracy and loss.
-- For validation I split![Capture](https://user-images.githubusercontent.com/93203143/182352751-504b60ec-e7fc-4c7e-9c72-768545ffd332.PNG)
- the data 5 % from the total dataset due to low number of data.
+- For validation I split the data 5 % from the total dataset due to low number of data.
 
 The results were the following:
 
@@ -94,4 +93,4 @@ The results were the following:
 - TO clear all the unwanted areas we use the ccl method and exract the two largest areas (the lungs).
 - Using the biolgical knowladge ( the highest density in the Lung, and the shape as well as the area of the tumor) I was able to use FCM to extract the tumor.
 
-![Uploading Capture.PNG…]()
+![Capture](https://user-images.githubusercontent.com/93203143/182352751-504b60ec-e7fc-4c7e-9c72-768545ffd332.PNG)
