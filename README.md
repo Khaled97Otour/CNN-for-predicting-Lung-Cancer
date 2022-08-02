@@ -89,8 +89,10 @@ The results were the following:
 
 ## I use the image processing methods to extract the lung tumor
 - First thing was to make sure that the image was at size 512x512 (defualt size from DICOM images).
-- per-processing stage was by appling filter for the binery-image ( circle with a diameter 300 pixel).
-- TO clear all the unwanted areas we use the ccl method and exract the two largest areas (the lungs).
+- Per-processing stage was by appling filter for the binery-image ( circle with a diameter 300 pixel).
+- To clear all the unwanted areas we use the ccl method and exract the two largest areas (the lungs).
+- CCL algorithm was used to label the lunges.
 - Using the biolgical knowladge ( the highest density in the Lung, and the shape as well as the area of the tumor) I was able to use FCM to extract the tumor.
+- After extract the tumor it was colored red in the original image. 
 
 ![Capture](https://user-images.githubusercontent.com/93203143/182352751-504b60ec-e7fc-4c7e-9c72-768545ffd332.PNG)
