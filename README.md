@@ -26,7 +26,7 @@ However, other techniques have been used to help the process were (ccl algorithm
 ## Second I create The CNN model   
 - is basic sequential model using Conv2D and Maxpooling2D and fully connected layers.
 
-Model: \"sequential_4\"
+Model: \"sequential_1\"
 
       _________________________________________________________________
       
