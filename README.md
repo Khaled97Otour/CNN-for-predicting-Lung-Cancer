@@ -27,6 +27,7 @@ However, other techniques have been used to help the process were (ccl algorithm
 - is basic sequential model using Conv2D and Maxpooling2D and fully connected layers.
 - I use the Adam compiler to measure the Accuracy and loss.
 - For validation I split the data 5 % from the total dataset due to low number of data.
+
 The results were the following:
 
 ![download](https://user-images.githubusercontent.com/93203143/182347174-c5153ed3-82a4-430a-a74d-f95a491ad653.png)
