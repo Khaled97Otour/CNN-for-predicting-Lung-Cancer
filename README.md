@@ -25,6 +25,33 @@ However, other techniques have been used to help the process were (ccl algorithm
 
 ## Second I create The CNN model   
 - is basic sequential model using Conv2D and Maxpooling2D and fully connected layers.
+
+Model: \"sequential_4\"\n",
+      _________________________________________________________________
+      Layer (type)                 Output Shape              Param #   
+      =================================================================
+      conv2d_7 (Conv2D)            (None, 76, 76, 60)        1560      
+      _________________________________________________________________
+      max_pooling2d_7 (MaxPooling2 (None, 38, 38, 60)        0         
+      _________________________________________________________________
+      conv2d_8 (Conv2D)            (None, 36, 36, 30)        16230     
+      _________________________________________________________________
+      max_pooling2d_8 (MaxPooling2 (None, 18, 18, 30)        0         
+      _________________________________________________________________
+      flatten_4 (Flatten)          (None, 9720)              0         
+      _________________________________________________________________
+      dense_7 (Dense)              (None, 250)               2430250   
+      _________________________________________________________________
+      dropout_4 (Dropout)          (None, 250)               0         
+      _________________________________________________________________
+      dense_8 (Dense)              (None, 2)                 502       
+      =================================================================
+      Total params: 2,448,542
+      Trainable params: 2,448,542
+      Non-trainable params: 0
+      _________________________________________________________________
+      Train on 395 samples, validate on 21 samples
+
 - I use the Adam compiler to measure the Accuracy and loss.
 - For validation I split the data 5 % from the total dataset due to low number of data.
 
