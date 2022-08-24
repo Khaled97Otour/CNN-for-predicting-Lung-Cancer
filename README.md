@@ -82,8 +82,8 @@ Model: \"sequential_1\"
 
 The results were the following:
 
-![download](https://user-images.githubusercontent.com/93203143/182347174-c5153ed3-82a4-430a-a74d-f95a491ad653.png)
-![download (1)](https://user-images.githubusercontent.com/93203143/182347192-7e9e04dd-3c3a-4eb5-86cc-d19de38131f8.png)
+![download](https:.//user-images.githubusercontent.com/93203143/182347174-c5153ed3-82a4-430a-a74d-f95a491ad653.png)
+![download (1)](https:.//user-images.githubusercontent.com/93203143/182347192-7e9e04dd-3c3a-4eb5-86cc-d19de38131f8.png)
 
 # Lung Tumor Segmentation
 
